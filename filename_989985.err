@@ -1,6 +1,0 @@
-/var/spool/slurm/d/job989985/slurm_script: line 15: intel/19.0.5: No such file or directory
-/var/spool/slurm/d/job989985/slurm_script: line 16: r/4.1.1: No such file or directory
-srun: error: dl10: tasks 1,5,7: Exited with exit code 1
-srun: error: dl10: tasks 2,4,8,13: Exited with exit code 1
-srun: error: dl10: tasks 0,6,9-12,14-15: Exited with exit code 1
-srun: error: dl10: task 3: Exited with exit code 1

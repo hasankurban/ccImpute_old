@@ -1,27 +1,3 @@
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-if (!requireNamespace("SC3", quietly = TRUE))
-  BiocManager::install("SC3")
-  install.packages("./SC3", repos = NULL, type = "source")
-if (!requireNamespace("mclust", quietly = TRUE))
-  install.packages("mclust")
-if (!requireNamespace("Rtsne", quietly = TRUE))
-  install.packages("Rtsne")
-if (!requireNamespace("mclust", quietly = TRUE))
-  install.packages("BiocManager")
-if (!requireNamespace("mclust", quietly = TRUE))
-  install.packages("BiocManager")
-if (!requireNamespace("SummarizedExperiment", quietly = TRUE))
-  BiocManager::install("SummarizedExperiment")
-if (!requireNamespace("SingleCellExperiment", quietly = TRUE))
-  BiocManager::install("SingleCellExperiment")
-if (!requireNamespace("stats", quietly = TRUE))
-  install.packages("stats")
-if (!requireNamespace("Rcpp", quietly = TRUE))
-  install.packages("Rcpp")
-if (!requireNamespace("cluster", quietly = TRUE))
-  install.packages("cluster")
-
 library(mclust)
 library(Rtsne)
 library(SummarizedExperiment)
@@ -31,8 +7,8 @@ library(SingleCellExperiment)
 library(stats)
 library(Rcpp)
 library(cluster)
-sourceCpp("./cpp/wCorr_m.cpp")
-sourceCpp("./cpp/solver.cpp")
+sourceCpp("~/home/ccImpute/cpp/wCorr_m.cpp")
+sourceCpp("~/home/ccImpute/cpp/solver.cpp")
 
 #Compute ARI for each possibility
 eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
@@ -161,7 +137,7 @@ driver <- function(filename, repeats, threshold){
   
   for(i in 1:length(dataset_names)){
     dataset = dataset_names[[i]]
-    sce <- readRDS(file = paste("./datasets/", dataset, ".rds", sep=""))
+    sce <- readRDS(file = paste("~/home/ccImpute/datasets/", dataset, ".rds", sep=""))
     
     X <- assays(sce)$counts
     X_log <- assays(sce)$logcounts
@@ -184,7 +160,7 @@ driver <- function(filename, repeats, threshold){
     print(c("Clustering results: ", dataset))
     print(means)
     print(stdevs)
-    fileConn<-eval(parse(text=paste('file("./results/', "ccimpute_", dataset, '_', filename, '_', repeats, '_', threshold, 'txt")', sep="")))
+    fileConn<-eval(parse(text=paste('file("~/home/ccImpute/results/', "ccimpute_", dataset, '_', filename, '_', repeats, '_', threshold, 'txt")', sep="")))
     writeLines(c(paste(dataset, "Genes(rows):", nrow(X), "Cells(cols):", ncol(X), "clusters: ", num_clusters, sep=" "), means, stdevs), fileConn)
     close(fileConn)
   }

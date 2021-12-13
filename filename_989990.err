@@ -1,0 +1,21 @@
+Intel compiler suite version 19.0.5 loaded.
+Curl version 7.54.0 unloaded.
+Curl version 7.54.0 loaded.
+Sun/Oracle Java SE Development Kit version 11.0.2 loaded.
+R version 4.1.1 loaded
+srun: error: c56: task 3: Exited with exit code 1
+srun: error: c56: task 5: Exited with exit code 1
+srun: error: c56: task 7: Exited with exit code 1
+srun: error: c56: task 12: Exited with exit code 1
+srun: error: c56: task 6: Exited with exit code 1
+srun: error: c56: task 14: Exited with exit code 1
+srun: error: c56: task 2: Exited with exit code 1
+srun: error: c56: task 11: Exited with exit code 1
+srun: error: c56: task 8: Exited with exit code 1
+srun: error: c56: task 1: Exited with exit code 1
+srun: error: c56: task 15: Exited with exit code 1
+srun: error: c56: task 4: Exited with exit code 1
+srun: error: c56: task 9: Exited with exit code 1
+srun: error: c56: task 10: Exited with exit code 1
+srun: error: c56: task 13: Exited with exit code 1
+srun: error: c56: task 0: Exited with exit code 1

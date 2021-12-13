@@ -1,0 +1,1487 @@
+/var/spool/slurm/d/job989967/slurm_script: line 15: intel/19.0.5: No such file or directory
+/var/spool/slurm/d/job989967/slurm_script: line 16: r/4.1.1: No such file or directory
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+Installing package into ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+* installing *source* package ‘SC3’ ...
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+** using staged installation
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+Warning message:
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+Warning message:
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+ERROR: failed to lock directory ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1’ for modifying
+Try removing ‘/geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3’
+** libs
+Warning message:
+In install.packages("./SC3", repos = NULL, type = "source") :
+  installation of package ‘./SC3’ had non-zero exit status
+installing to /geode2/home/u060/mamalec/Carbonate/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-SC3/00new/SC3/libs
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+Loading required package: matrixStats
+Loading required package: matrixStats
+Loading required package: matrixStats
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+Loading required package: matrixStats
+Loading required package: matrixStats
+Loading required package: MatrixGenerics
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+Loading required package: matrixStats
+Loading required package: matrixStats
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+
+Attaching package: ‘MatrixGenerics’
+
+Loading required package: GenomicRanges
+Loading required package: GenomicRanges
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: stats4
+
+Attaching package: ‘MatrixGenerics’
+
+Loading required package: stats4
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+
+Attaching package: ‘MatrixGenerics’
+
+
+Attaching package: ‘MatrixGenerics’
+
+
+Attaching package: ‘MatrixGenerics’
+
+
+Attaching package: ‘MatrixGenerics’
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+
+Attaching package: ‘MatrixGenerics’
+
+Loading required package: GenomicRanges
+Loading required package: BiocGenerics
+Loading required package: BiocGenerics
+Loading required package: GenomicRanges
+Loading required package: GenomicRanges
+Loading required package: GenomicRanges
+Loading required package: stats4
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: stats4
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: stats4
+
+Attaching package: ‘MatrixGenerics’
+
+Loading required package: stats4
+Loading required package: stats4
+
+Attaching package: ‘MatrixGenerics’
+
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: stats4
+Loading required package: GenomicRanges
+Loading required package: GenomicRanges
+Loading required package: GenomicRanges
+Loading required package: BiocGenerics
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+
+Attaching package: ‘BiocGenerics’
+
+Loading required package: BiocGenerics
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: BiocGenerics
+Loading required package: BiocGenerics
+Loading required package: BiocGenerics
+
+Attaching package: ‘MatrixGenerics’
+
+
+Attaching package: ‘BiocGenerics’
+
+Loading required package: BiocGenerics
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Loading required package: S4Vectors
+Loading required package: S4Vectors
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: stats4
+Loading required package: stats4
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: S4Vectors
+Loading required package: BiocGenerics
+Loading required package: GenomicRanges
+Loading required package: BiocGenerics
+Loading required package: stats4
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Loading required package: S4Vectors
+Loading required package: BiocGenerics
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: BiocGenerics
+
+Attaching package: ‘S4Vectors’
+
+
+Attaching package: ‘S4Vectors’
+
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘BiocGenerics’
+
+
+Attaching package: ‘S4Vectors’
+
+Loading required package: IRanges
+Loading required package: IRanges
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘BiocGenerics’
+
+
+Attaching package: ‘BiocGenerics’
+
+
+Attaching package: ‘BiocGenerics’
+
+Loading required package: S4Vectors
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+Loading required package: S4Vectors
+Loading required package: S4Vectors
+Loading required package: S4Vectors
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: BiocGenerics
+Loading required package: S4Vectors
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: GenomeInfoDb
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘BiocGenerics’
+
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Loading required package: IRanges
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Loading required package: GenomeInfoDb
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: IRanges
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+
+Attaching package: ‘S4Vectors’
+
+
+Attaching package: ‘S4Vectors’
+
+
+Attaching package: ‘S4Vectors’
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: S4Vectors
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Loading required package: IRanges
+Loading required package: IRanges
+Loading required package: IRanges
+
+Attaching package: ‘S4Vectors’
+
+Loading required package: IRanges
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: S4Vectors
+Loading required package: S4Vectors
+Loading required package: IRanges
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomeInfoDb
+Loading required package: GenomeInfoDb
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘S4Vectors’
+
+Loading required package: GenomeInfoDb
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: GenomeInfoDb
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘S4Vectors’
+
+Loading required package: IRanges
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomeInfoDb
+** R
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Loading required package: Biobase
+Loading required package: Biobase
+Loading required package: GenomeInfoDb
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+** data
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+Loading required package: Biobase
+Loading required package: Biobase
+Loading required package: Biobase
+Loading required package: Biobase
+Loading required package: Biobase
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: Biobase
+Loading required package: Biobase
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘Biobase’
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘Biobase’
+
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘Biobase’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+Loading required package: Biobase
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+
+Attaching package: ‘Biobase’
+
+Loading required package: Biobase
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+Loading required package: Biobase
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+*** moving datasets to lazyload DB
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+Error in library(SC3) : there is no package called ‘SC3’
+Execution halted
+srun: error: dl10: tasks 1,5,7,13: Exited with exit code 1
+srun: error: dl10: tasks 0,2,4,6,8-12,14-15: Exited with exit code 1
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (SC3)
+Package 'mclust' version 5.4.7
+Type 'citation("mclust")' for citing this R package in publications.
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+Setting SC3 parameters...
+Performing transformations and calculating eigenvectors...
+Loading required package: SC3
+loaded SC3 and set parent environment
+Loading required package: foreach
+Loading required package: rngtools
+Performing k-means clustering...
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+Loading required package: SC3
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+loaded SC3 and set parent environment
+Loading required package: foreach
+Loading required package: foreach
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+Loading required package: foreach
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+loaded SC3 and set parent environment
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: foreach
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: rngtools
+loaded SC3 and set parent environment
+loaded SC3 and set parent environment
+Loading required package: rngtools
+Loading required package: rngtools
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: rngtools
+Loading required package: rngtools
+Error in loadNamespace(x) : there is no package called ‘scran’
+Error in loadNamespace(x) : there is no package called ‘scran’
+Error in loadNamespace(x) : there is no package called ‘scran’
+Error in checkForRemoteErrors(val) : 
+  3 nodes produced errors; first error: Error in loadNamespace(x) : there is no package called ‘scran’
+Calls: driver ... clusterApplyLB -> dynamicClusterApply -> checkForRemoteErrors
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+srun: error: dl10: task 3: Exited with exit code 1

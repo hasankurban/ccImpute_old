@@ -154,7 +154,7 @@ eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
 
 
 driver <- function(filename, repeats, threshold){
-  dataset_names <- list("chen")
+  dataset_names <- list("blakeley")
   # dataset_names <-list("blakeley", "deng", "pollen","darmanis", "segerstolpe")
   
   

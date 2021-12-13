@@ -1,0 +1,50 @@
+[1] "blakeley Genes(rows): 16862 Cells(cols): 30"
+starting worker pid=13299 on localhost:11639 at 10:01:40.446
+starting worker pid=13323 on localhost:11639 at 10:01:47.530
+starting worker pid=13331 on localhost:11639 at 10:01:47.580
+starting worker pid=13346 on localhost:11639 at 10:01:47.585
+starting worker pid=13341 on localhost:11639 at 10:01:47.588
+starting worker pid=13338 on localhost:11639 at 10:01:47.624
+starting worker pid=13337 on localhost:11639 at 10:01:47.627
+starting worker pid=13336 on localhost:11639 at 10:01:47.629
+starting worker pid=13356 on localhost:11639 at 10:01:47.632
+starting worker pid=13355 on localhost:11639 at 10:01:47.642
+starting worker pid=13332 on localhost:11639 at 10:01:47.649
+starting worker pid=13345 on localhost:11639 at 10:01:47.650
+starting worker pid=13324 on localhost:11639 at 10:01:47.653
+starting worker pid=13327 on localhost:11639 at 10:01:47.655
+starting worker pid=13319 on localhost:11639 at 10:01:47.661
+starting worker pid=13326 on localhost:11639 at 10:01:47.661
+starting worker pid=13349 on localhost:11639 at 10:01:47.681
+starting worker pid=13334 on localhost:11639 at 10:01:47.682
+starting worker pid=13330 on localhost:11639 at 10:01:47.683
+starting worker pid=13347 on localhost:11639 at 10:01:47.685
+starting worker pid=13335 on localhost:11639 at 10:01:47.687
+starting worker pid=13322 on localhost:11639 at 10:01:47.690
+starting worker pid=13340 on localhost:11639 at 10:01:47.705
+starting worker pid=13344 on localhost:11639 at 10:01:47.706
+starting worker pid=13325 on localhost:11639 at 10:01:47.706
+starting worker pid=13329 on localhost:11639 at 10:01:47.709
+starting worker pid=13318 on localhost:11639 at 10:01:47.712
+starting worker pid=13321 on localhost:11639 at 10:01:47.712
+starting worker pid=13320 on localhost:11639 at 10:01:47.713
+starting worker pid=13354 on localhost:11639 at 10:01:47.720
+starting worker pid=13333 on localhost:11639 at 10:01:47.722
+starting worker pid=13343 on localhost:11639 at 10:01:47.735
+starting worker pid=13342 on localhost:11639 at 10:01:47.750
+starting worker pid=13350 on localhost:11639 at 10:01:47.760
+starting worker pid=13348 on localhost:11639 at 10:01:47.770
+starting worker pid=13351 on localhost:11639 at 10:01:47.777
+starting worker pid=13352 on localhost:11639 at 10:01:47.786
+starting worker pid=13328 on localhost:11639 at 10:01:47.793
+starting worker pid=13353 on localhost:11639 at 10:01:47.806
+starting worker pid=13339 on localhost:11639 at 10:01:47.809
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+starting worker pid=13831 on localhost:11639 at 10:02:07.845
+[1] "Imputation finished"
+[1] "PCA kmeans finished"
+[1] "tsne kmeans finished"
+[1] "Clustering results: " "blakeley"            
+[1]  0.7029880  0.5778725  0.5290509 34.0763571  0.1172802  0.1186333  0.9500000
+[1] NA NA NA NA NA NA NA
+function (..., na.rm = FALSE)  .Primitive("sum")

@@ -31,7 +31,7 @@ eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
 
   metadata(sce)$sc3$distances <- distances
   sce <- sc3_calc_transfs(sce)
-  sce <- sc3_kmeans(sce, num_clusters, TRUE)
+  sce <- sc3_kmeans(sce, num_clusters, FALSE)
   sce <- sc3_calc_consens(sce)
 
   # Get consensus matrix from the SC3
@@ -130,7 +130,7 @@ eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
 
 
 driver <- function(filename, repeats, threshold){
-  dataset_names <- list("blakeley")
+  dataset_names <- list("chen")
   # dataset_names <-list("blakeley", "deng", "pollen","darmanis", "segerstolpe")
   
   
@@ -170,10 +170,5 @@ driver <- function(filename, repeats, threshold){
 # driver("slow-65", 1, .50)
 # driver("slow-65", 1, .55)
 # driver("slow-65", 1, .60)
-driver("fast-95", 1, .95)
-# driver("slow-65", 1, .70)
-# driver("fast-95", 10, 0, 2, 0, 0)
-
-# driver("em_star", 1, 0, 2, 0, 0)
-
-
+#driver("fast-95", 1, .95)
+driver("slow-65", 1, .65)

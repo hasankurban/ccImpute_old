@@ -15,5 +15,5 @@
 module load intel/19.0.5
 module load r/4.1.1 
 
-srun Rscript --vanilla ./ccImpute/ccImpute2.R
+srun Rscript --vanilla ~/ccImpute/ccImpute2.R
 

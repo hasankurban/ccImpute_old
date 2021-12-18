@@ -31,6 +31,7 @@ eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
 
   metadata(sce)$sc3$distances <- distances
   sce <- sc3_calc_transfs(sce)
+  print("ccimpute slow")
   sce <- sc3_kmeans(sce, num_clusters, FALSE)
   sce <- sc3_calc_consens(sce)
 
@@ -130,7 +131,7 @@ eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
 
 
 driver <- function(filename, repeats, threshold){
-  dataset_names <- list("chen")
+  dataset_names <- list("chen", "campbell")
   # dataset_names <-list("blakeley", "deng", "pollen","darmanis", "segerstolpe")
   
   
@@ -160,7 +161,7 @@ driver <- function(filename, repeats, threshold){
     print(c("Clustering results: ", dataset))
     print(means)
     print(stdevs)
-    fileConn<-eval(parse(text=paste('file("~/ccImpute/results/', "ccimpute_", dataset, '_', filename, '_', repeats, '_', threshold, 'txt")', sep="")))
+    fileConn<-eval(parse(text=paste('file("~/ccImpute/results/', "ccimpute__", dataset, '_', filename, '_', repeats, '_', threshold, 'txt")', sep="")))
     writeLines(c(paste(dataset, "Genes(rows):", nrow(X), "Cells(cols):", ncol(X), "clusters: ", num_clusters, sep=" "), means, stdevs), fileConn)
     close(fileConn)
   }
@@ -169,6 +170,6 @@ driver <- function(filename, repeats, threshold){
 
 # driver("slow-65", 1, .50)
 # driver("slow-65", 1, .55)
-# driver("slow-65", 1, .60)
+ driver("slow-65", 1, .65)
 #driver("fast-95", 1, .95)
-driver("slow-65", 1, .65)
+#driver("slow-65", 1, .65)

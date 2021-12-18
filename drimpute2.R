@@ -3,8 +3,8 @@ library(Rtsne)
 library(SummarizedExperiment)
 library(SC3)
 library(SingleCellExperiment)
-library(wCorr)
-library(rlist)
+#library(wCorr)
+#library(rlist)
 library(stats)
 library(matrixStats)
 library(Rcpp)
@@ -82,7 +82,7 @@ eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
 
 
 driver <- function(filename, repeats, threshold){
-  dataset_names <- list("chen")
+  dataset_names <- list("chen", "campbell")
   # dataset_names <-list("blakeley", "deng", "pollen","darmanis")
   
   

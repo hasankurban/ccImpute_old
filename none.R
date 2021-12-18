@@ -1,19 +1,17 @@
 ## Import the CIDR library
 # library(cidr)
 # library(Rfast)
-library(scDatasets)
 library(mclust)
 library(Rtsne)
 library(SummarizedExperiment)
 library(SC3)
 library(SingleCellExperiment)
-library(wCorr)
-library(rlist)
+#library(rlist)
 library(stats)
 library(matrixStats)
 library(Rcpp)
 library(cluster)
-library(Rmagic)
+#library(Rmagic)
 
 sourceCpp("~/ccImpute/cpp/wCorr_m.cpp")
 sourceCpp("~/ccImpute/cpp/solver.cpp")
@@ -126,8 +124,8 @@ driver <- function(filename, repeats, threshold){
 # driver("slow-65", 1, .55)
 # driver("slow-65", 1, .60)
 
-driver("slow-65", 10, .65)
-
+driver("slow-65", 1, .65)
+print("None")
 
 
 # driver("slow-65", 1, .70)

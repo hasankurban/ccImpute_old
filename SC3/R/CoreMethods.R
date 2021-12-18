@@ -599,16 +599,16 @@ sc3_calc_consens.SingleCellExperiment <- function(object) {
             d <- k.means[grep(paste0("_", i, "_"), names(k.means))]
             d <- matrix(unlist(d), nrow = length(d[[1]]))
             dat <- consensus_matrix(d)
-            tmp <- ED2(dat)
-            colnames(tmp) <- as.character(colnames(dat))
-            rownames(tmp) <- as.character(colnames(dat))
-            diss <- stats::as.dist(as.matrix(stats::as.dist(tmp)))
-            hc <- stats::hclust(diss)
-            clusts <- reindex_clusters(hc, i)
+#            tmp <- ED2(dat)
+#            colnames(tmp) <- as.character(colnames(dat))
+#            rownames(tmp) <- as.character(colnames(dat))
+#            diss <- stats::as.dist(as.matrix(stats::as.dist(tmp)))
+#            hc <- stats::hclust(diss)
+#            clusts <- reindex_clusters(hc, i)
             
-            silh <- cluster::silhouette(clusts, diss)
+#            silh <- cluster::silhouette(clusts, diss)
             
-            list(consensus = dat, hc = hc, silhouette = silh)
+            list(consensus = dat, hc = NULL, silhouette = NULL)
         })
     }
     
@@ -625,19 +625,19 @@ sc3_calc_consens.SingleCellExperiment <- function(object) {
     
     # remove kmeans results after calculating consensus
     metadata(object)$sc3$kmeans <- NULL
-    
+
     p_data <- colData(object)
-    for (k in ks) {
-        hc <- metadata(object)$sc3$consensus[[as.character(k)]]$hc
-        clusts <- reindex_clusters(hc, k)
-        # in case of hybrid SVM approach
-        if (!is.null(metadata(object)$sc3$svm_train_inds)) {
-            tmp <- rep(NA, nrow(p_data))
-            tmp[metadata(object)$sc3$svm_train_inds] <- clusts
-            clusts <- tmp
-        }
-        p_data[, paste0("sc3_", k, "_clusters")] <- factor(clusts, levels = sort(unique(clusts)))
-    }
+    #for (k in ks) {
+    #    hc <- metadata(object)$sc3$consensus[[as.character(k)]]$hc
+    #    clusts <- reindex_clusters(hc, k)
+    #    # in case of hybrid SVM approach
+    #    if (!is.null(metadata(object)$sc3$svm_train_inds)) {
+    #        tmp <- rep(NA, nrow(p_data))
+    #        tmp[metadata(object)$sc3$svm_train_inds] <- clusts
+    #        clusts <- tmp
+    #    }
+    #    p_data[, paste0("sc3_", k, "_clusters")] <- factor(clusts, levels = sort(unique(clusts)))
+    #}
     colData(object) <- as(p_data, "DataFrame")
     
     return(object)

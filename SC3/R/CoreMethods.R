@@ -440,6 +440,7 @@ setMethod("sc3_calc_transfs", signature(object = "SingleCellExperiment"), sc3_ca
 #' @importFrom scran mini_batch
 #' @import igraph
 #' @importFrom stats kmeans
+#' @import DCEM
 
 
 sc3_kmeans.SingleCellExperiment <- function(object, ks, useFastClust) {
@@ -495,8 +496,7 @@ sc3_kmeans.SingleCellExperiment <- function(object, ks, useFastClust) {
             transf <- get(hash.table$transf[i], transfs)
             
             if(useFastClust){
-                g <- scran::buildSNNGraph(t(transf[, 1:hash.table$n_dim[i]]), d=hash.table$n_dim[i])
-                igraph::cut_at(igraph::cluster_fast_greedy(g), no=hash.table$ks[i])#, no=hash.table$ks[i])
+               DCEM::dcem_star_train(data = transf[, 1:hash.table$n_dim[i]], num_clusters = hash.table$ks[i],seeding="rand")$membership
             }
             else{
                 # dist_out <- dist(transf[, 1:hash.table$n_dim[i]], method = "euclidean", diag = FALSE, upper = FALSE, p = 2)

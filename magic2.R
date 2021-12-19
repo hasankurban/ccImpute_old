@@ -29,41 +29,41 @@ eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
     p <- 9
   }
   
-  cells <- ncol(X)
-  if(cells > 1000){
-    print("Reducing rank")
-    pca_red <- prcomp(as.matrix(xlog_t), rank. = 500)$x
-    tsne_red <- Rtsne(pca_red, perplexity = p, check_duplicates = FALSE)$Y
-    restarts <- 50
-    
-  }
-  else{
-    pca_red <- prcomp(as.matrix(xlog_t))$x
-    tsne_red <- Rtsne(as.matrix(xlog_t), perplexity = p, check_duplicates = FALSE)$Y
-    restarts <- 1000
-  }
+#  cells <- ncol(X)
+#  if(cells > 1000){
+#    print("Reducing rank")
+#    pca_red <- prcomp(as.matrix(xlog_t), rank. = 500)$x
+#    tsne_red <- Rtsne(pca_red, perplexity = p, check_duplicates = FALSE)$Y
+#    restarts <- 50
+#    
+#  }
+#  else{
+#    pca_red <- prcomp(as.matrix(xlog_t))$x
+#    tsne_red <- Rtsne(as.matrix(xlog_t), perplexity = p, check_duplicates = FALSE)$Y
+#    restarts <- 1000
+#  }
   
-  c1 = adjustedRandIndex(kmeans(
-    pca_red,
-    centers = num_clusters,
-    iter.max = 1e+09,
-    nstart = restarts
-  )$cluster,
-  labels)
+#  c1 = adjustedRandIndex(kmeans(
+#    pca_red,
+#    centers = num_clusters,
+#    iter.max = 1e+09,
+#    nstart = restarts
+#  )$cluster,
+#  labels)
   
-  print("PCA kmeans finished")
+#  print("PCA kmeans finished")
   
   
   
   #tsne/kmeans
-  c2 = adjustedRandIndex(kmeans(
-    tsne_red,
-    centers = num_clusters,
-    iter.max = 1e+09,
-    nstart = restarts
-  )$cluster,
-  labels)
-  print("tsne kmeans finished")
+#  c2 = adjustedRandIndex(kmeans(
+#    tsne_red,
+#    centers = num_clusters,
+#    iter.max = 1e+09,
+#    nstart = restarts
+#  )$cluster,
+#  labels)
+#  print("tsne kmeans finished")
   
   
   temp <-t(X_log)
@@ -79,12 +79,12 @@ eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
   silh_pca <- silhouette(int_labels, pca_dist)
   silh_pca_avr <- as.numeric(summary(silh_pca)['avg.width'])
   
-  return(c(c1, c2, difftime(end_time, start_time, units="secs") , prop_zeros_removed, silh_pca_avr, threshold))
+  return(c(difftime(end_time, start_time, units="secs") , prop_zeros_removed, silh_pca_avr, threshold))
 }
 
 
 driver <- function(filename, repeats, threshold){
-  dataset_names <- list("chen", "campbell")
+  dataset_names <- list("chen", "baron-human", "campbell")
   # dataset_names <-list("blakeley", "deng", "pollen","darmanis", "segerstolpe")
   
   

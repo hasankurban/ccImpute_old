@@ -11,7 +11,7 @@ sourceCpp("~/ccImpute/cpp/wCorr_m.cpp")
 sourceCpp("~/ccImpute/cpp/solver.cpp")
 
 #Compute ARI for each possibility
-eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
+eval_alg <- function(X, X_log, labels, num_clusters,threshold,isFAST,dataset,filename) {
   start_time <- Sys.time()
   distances <- list()
   names <- c()
@@ -32,7 +32,7 @@ eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
   metadata(sce)$sc3$distances <- distances
   sce <- sc3_calc_transfs(sce)
   print("ccimpute slow")
-  sce <- sc3_kmeans(sce, num_clusters, FALSE)
+  sce <- sc3_kmeans(sce, num_clusters, isFAST)
   sce <- sc3_calc_consens(sce)
 
   # Get consensus matrix from the SC3
@@ -69,70 +69,70 @@ eval_alg <- function(X, X_log, labels, num_clusters,threshold) {
 
   print("Imputation finished")
   xlog_t[t3] <- x_imp[t3]
-  write.csv(x=xlog_t, file="~/ccImpute/datasets/blakeley_imputed.csv")
+  write.csv(x=xlog_t, file=paste("~/ccImpute/datasets/", dataset,"_", filename, ".csv", sep=""))
   print(difftime(end_time, start_time, units="secs"))
-  p <- 30
+  #p <- 30
 
-  if (ncol(t(as.matrix(xlog_t))) <= p*2){
-    p <- 9
-  }
+  #if (ncol(t(as.matrix(xlog_t))) <= p*2){
+  #  p <- 9
+  #}
 
-  cells <- ncol(X)
-  if(cells > 1000){
-    print("Reducing rank")
-    pca_red <- prcomp(as.matrix(xlog_t), rank. = 500)$x
-    tsne_red <- Rtsne(pca_red, perplexity = p, check_duplicates = FALSE)$Y
-    restarts <- 50
+  #cells <- ncol(X)
+  #if(cells > 1000){
+  #  print("Reducing rank")
+  #  pca_red <- prcomp(as.matrix(xlog_t), rank. = 500)$x
+  #  tsne_red <- Rtsne(pca_red, perplexity = p, check_duplicates = FALSE)$Y
+  #  restarts <- 50
 
-  }
-  else{
-    pca_red <- prcomp(as.matrix(xlog_t))$x
-    tsne_red <- Rtsne(as.matrix(xlog_t), perplexity = p, check_duplicates = FALSE)$Y
-    restarts <- 1000
-  }
+  #}
+  #else{
+  #  pca_red <- prcomp(as.matrix(xlog_t))$x
+  #  tsne_red <- Rtsne(as.matrix(xlog_t), perplexity = p, check_duplicates = FALSE)$Y
+  #  restarts <- 1000
+  #}
 
-  c1 = adjustedRandIndex(kmeans(
-    pca_red,
-    centers = num_clusters,
-    iter.max = 1e+09,
-    nstart = restarts
-  )$cluster,
-  labels)
+  #c1 = adjustedRandIndex(kmeans(
+  #  pca_red,
+  #  centers = num_clusters,
+  #  iter.max = 1e+09,
+  #  nstart = restarts
+  #)$cluster,
+  #labels)
 
-  print("PCA kmeans finished")
+  #print("PCA kmeans finished")
 
 
 
   #tsne/kmeans
-  c2 = adjustedRandIndex(kmeans(
-    tsne_red,
-    centers = num_clusters,
-    iter.max = 1e+09,
-    nstart = restarts
-  )$cluster,
-  labels)
-  print("tsne kmeans finished")
+  #c2 = adjustedRandIndex(kmeans(
+  #  tsne_red,
+  #  centers = num_clusters,
+  #  iter.max = 1e+09,
+  #  nstart = restarts
+  #)$cluster,
+  #labels)
+  #print("tsne kmeans finished")
 
 
   #c0 = adjustedRandIndex(eval(parse(text=paste("colData(sce)$sc3", toString(num_clusters), "clusters", sep="_"))),
 #                         labels)
 
 
-  prop_zeros_removed <- 1.00-(sum(xlog_t==0))/sum(X_log==0)
+  #prop_zeros_removed <- 1.00-(sum(xlog_t==0))/sum(X_log==0)
 
-  pca_dist <- as.matrix(stats::dist(pca_red, method = "euclidean", diag = TRUE, upper = TRUE))
+  #pca_dist <- as.matrix(stats::dist(pca_red, method = "euclidean", diag = TRUE, upper = TRUE))
 
-  int_labels <- as.numeric((as.factor(labels)))
+  #int_labels <- as.numeric((as.factor(labels)))
 
-  silh_pca <- silhouette(int_labels, pca_dist)
-  silh_pca_avr <- as.numeric(summary(silh_pca)['avg.width'])
+  #silh_pca <- silhouette(int_labels, pca_dist)
+  #silh_pca_avr <- as.numeric(summary(silh_pca)['avg.width'])
 
-  return(c(c1, c2, difftime(end_time, start_time, units="secs") , prop_zeros_removed, silh_pca_avr, threshold))
+  return(c(difftime(end_time, start_time, units="secs"),threshold))
 }
 
 
-driver <- function(filename, repeats, threshold){
-  dataset_names <- list("campbell")
+driver <- function(filename, repeats, threshold, isFAST,dataset){
+  dataset_names <- list(dataset)
   # dataset_names <-list("blakeley", "deng", "pollen","darmanis", "segerstolpe")
   
   
@@ -154,7 +154,7 @@ driver <- function(filename, repeats, threshold){
     
     num_clusters = length(unique(labels))
     
-    data_aris <- replicate(repeats, eval_alg(X, X_log, labels, num_clusters,threshold))
+    data_aris <- replicate(repeats, eval_alg(X, X_log, labels, num_clusters,threshold, isFAST, dataset, filename))
     
     means <- rowMeans(data_aris)
     stdevs <- rowSds(data_aris)
@@ -168,9 +168,16 @@ driver <- function(filename, repeats, threshold){
   }
   print(sum)
 }
+args = commandArgs(trailingOnly=TRUE)
 
 # driver("slow-65", 1, .50)
 # driver("slow-65", 1, .55)
-driver("slow-65", 1, .65)
+if(args[1] == "slow"){
+  print(c("slow", args[2]))
+  driver("slow-65", 1, .65, FALSE, args[2])
+} else {driver("fast-95", 1, .95, TRUE, args[2])}
+ #dataset_names <- list(args[2])
+
+#driver("slow-65", 1, .65)
 #driver("fast-95", 1, .95)
 #driver("slow-65", 1, .65)

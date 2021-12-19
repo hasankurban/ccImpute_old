@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH -J ccimpute
-#SBATCH -p general
+#SBATCH -p dl-debug
 #SBATCH -o filename_%j.txt
 #SBATCH -e filename_%j.err
 #SBATCH --mail-type=ALL
@@ -9,12 +9,13 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=16
-#SBATCH --time=08:00:00
+#SBATCH --time=01:00:00
 #SBATCH --mem=128G
 
 export OMP_NUM_THREADS=16
 
 #Load any modules that your program needs
+module unload gcc
 module load intel/19.0.5
 module load gcc/9.3.0
 module load boost/gnu/1.72.0

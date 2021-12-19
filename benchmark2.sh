@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH -J ccimpute
-#SBATCH -p gpu-debug
+#SBATCH -p dl-debug
 #SBATCH -o filename_%j.txt
 #SBATCH -e filename_%j.err
 #SBATCH --mail-type=ALL
@@ -19,5 +19,5 @@ module unload gcc
 module load intel/19.0.5
 module load gcc/9.3.0
 module load boost/gnu/1.72.0
-srun ~/R-4.1.2/build/bin/Rscript --vanilla ~/ccImpute/benchmark2.R
+srun ~/R-4.1.2/build/bin/Rscript --vanilla ~/ccImpute/benchmark2.R slow baron-human
 

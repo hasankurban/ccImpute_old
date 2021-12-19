@@ -118,6 +118,8 @@ driver <- function(filename, repeats, threshold, isFAST,dataset){
   print(sum)
 }
 
+args = commandArgs(trailingOnly=TRUE)
+
 if(args[1] == "slow"){
   print(c("slow", args[2]))
   driver("slow-65", 1, .65, FALSE, args[2])

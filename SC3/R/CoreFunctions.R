@@ -57,11 +57,18 @@ calculate_distance <- function(data, method) {
 #'
 transformation <- function(dists, method, rank_max) {
     if (method == "pca") {
-        t <- prcomp(dists, center = TRUE, scale. = TRUE, rank. = rank_max)
+        t <- prcomp(dists, center = TRUE, scale. = TRUE,retx = FALSE)
+
+        # 
+        # print(rank_max)
+        # print(c(nrow(t$rotation), ncol(t$rotation)))
+        # 
         # print(t$sdev)
-    
+        # print(t$sdev)
+        # exit()
+        
         # return(cmdscale(, k = rank_max)$points)
-        return(t$rotation)
+        return(t)
     } else if (method == "laplacian") {
         L <- norm_laplacian(dists)
         l <- eigen(L)
